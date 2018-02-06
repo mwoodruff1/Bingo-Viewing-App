@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Bingo Viewing App
+//  Bingo App
 //
-//  Created by Matthew Woodruff on 11/23/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by Matthew Woodruff on 1/31/18.
+//  Copyright © 2018 Matthew Woodruff. All rights reserved.
 //
 
 import UIKit
