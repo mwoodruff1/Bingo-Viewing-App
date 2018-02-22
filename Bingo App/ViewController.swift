@@ -118,7 +118,7 @@ class ViewController: UIViewController {
             randomNumber32 = arc4random_uniform(76)
         }
         
-        var randomNumber:Int = Int(randomNumber32); //Switches from UInt32 to a standard Integer
+        let randomNumber:Int = Int(randomNumber32); //Switches from UInt32 to a standard Integer
         numberStorageArray.append(randomNumber)
         if numberStorageArray.contains(randomNumber){
             randomNumber32 = arc4random_uniform(76);
