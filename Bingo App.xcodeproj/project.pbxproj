@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D815EB8F1FC719BF004717E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815EB8E1FC719BF004717E5 /* AppDelegate.swift */; };
-		D815EB911FC719BF004717E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815EB901FC719BF004717E5 /* ViewController.swift */; };
-		D815EB941FC719BF004717E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D815EB921FC719BF004717E5 /* Main.storyboard */; };
-		D815EB961FC719BF004717E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D815EB951FC719BF004717E5 /* Assets.xcassets */; };
-		D815EB991FC719BF004717E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D815EB971FC719BF004717E5 /* LaunchScreen.storyboard */; };
+		D8B07F4F2022C35D00084234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B07F4E2022C35D00084234 /* AppDelegate.swift */; };
+		D8B07F512022C35D00084234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B07F502022C35D00084234 /* ViewController.swift */; };
+		D8B07F542022C35D00084234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B07F522022C35D00084234 /* Main.storyboard */; };
+		D8B07F562022C35D00084234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B07F552022C35D00084234 /* Assets.xcassets */; };
+		D8B07F592022C35D00084234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B07F572022C35D00084234 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D815EB8B1FC719BF004717E5 /* Bingo Viewing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bingo Viewing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D815EB8E1FC719BF004717E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D815EB901FC719BF004717E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D815EB931FC719BF004717E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D815EB951FC719BF004717E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D815EB981FC719BF004717E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D815EB9A1FC719BF004717E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B07F4B2022C35D00084234 /* Bingo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bingo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B07F4E2022C35D00084234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8B07F502022C35D00084234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8B07F532022C35D00084234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B07F552022C35D00084234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B07F582022C35D00084234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B07F5A2022C35D00084234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D815EB881FC719BF004717E5 /* Frameworks */ = {
+		D8B07F482022C35D00084234 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D815EB821FC719BF004717E5 = {
+		D8B07F422022C35D00084234 = {
 			isa = PBXGroup;
 			children = (
-				D815EB8D1FC719BF004717E5 /* Bingo Viewing App */,
-				D815EB8C1FC719BF004717E5 /* Products */,
+				D8B07F4D2022C35D00084234 /* Bingo App */,
+				D8B07F4C2022C35D00084234 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D815EB8C1FC719BF004717E5 /* Products */ = {
+		D8B07F4C2022C35D00084234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D815EB8B1FC719BF004717E5 /* Bingo Viewing App.app */,
+				D8B07F4B2022C35D00084234 /* Bingo App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D815EB8D1FC719BF004717E5 /* Bingo Viewing App */ = {
+		D8B07F4D2022C35D00084234 /* Bingo App */ = {
 			isa = PBXGroup;
 			children = (
-				D815EB8E1FC719BF004717E5 /* AppDelegate.swift */,
-				D815EB901FC719BF004717E5 /* ViewController.swift */,
-				D815EB921FC719BF004717E5 /* Main.storyboard */,
-				D815EB951FC719BF004717E5 /* Assets.xcassets */,
-				D815EB971FC719BF004717E5 /* LaunchScreen.storyboard */,
-				D815EB9A1FC719BF004717E5 /* Info.plist */,
+				D8B07F4E2022C35D00084234 /* AppDelegate.swift */,
+				D8B07F502022C35D00084234 /* ViewController.swift */,
+				D8B07F522022C35D00084234 /* Main.storyboard */,
+				D8B07F552022C35D00084234 /* Assets.xcassets */,
+				D8B07F572022C35D00084234 /* LaunchScreen.storyboard */,
+				D8B07F5A2022C35D00084234 /* Info.plist */,
 			);
-			path = "Bingo Viewing App";
+			path = "Bingo App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D815EB8A1FC719BF004717E5 /* Bingo Viewing App */ = {
+		D8B07F4A2022C35D00084234 /* Bingo App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D815EB9D1FC719BF004717E5 /* Build configuration list for PBXNativeTarget "Bingo Viewing App" */;
+			buildConfigurationList = D8B07F5D2022C35D00084234 /* Build configuration list for PBXNativeTarget "Bingo App" */;
 			buildPhases = (
-				D815EB871FC719BF004717E5 /* Sources */,
-				D815EB881FC719BF004717E5 /* Frameworks */,
-				D815EB891FC719BF004717E5 /* Resources */,
+				D8B07F472022C35D00084234 /* Sources */,
+				D8B07F482022C35D00084234 /* Frameworks */,
+				D8B07F492022C35D00084234 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bingo Viewing App";
-			productName = "Bingo Viewing App";
-			productReference = D815EB8B1FC719BF004717E5 /* Bingo Viewing App.app */;
+			name = "Bingo App";
+			productName = "Bingo App";
+			productReference = D8B07F4B2022C35D00084234 /* Bingo App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D815EB831FC719BF004717E5 /* Project object */ = {
+		D8B07F432022C35D00084234 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "Maryville App Development";
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Matthew Woodruff";
 				TargetAttributes = {
-					D815EB8A1FC719BF004717E5 = {
-						CreatedOnToolsVersion = 9.1;
+					D8B07F4A2022C35D00084234 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D815EB861FC719BF004717E5 /* Build configuration list for PBXProject "Bingo Viewing App" */;
+			buildConfigurationList = D8B07F462022C35D00084234 /* Build configuration list for PBXProject "Bingo App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = D815EB821FC719BF004717E5;
-			productRefGroup = D815EB8C1FC719BF004717E5 /* Products */;
+			mainGroup = D8B07F422022C35D00084234;
+			productRefGroup = D8B07F4C2022C35D00084234 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D815EB8A1FC719BF004717E5 /* Bingo Viewing App */,
+				D8B07F4A2022C35D00084234 /* Bingo App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D815EB891FC719BF004717E5 /* Resources */ = {
+		D8B07F492022C35D00084234 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D815EB991FC719BF004717E5 /* LaunchScreen.storyboard in Resources */,
-				D815EB961FC719BF004717E5 /* Assets.xcassets in Resources */,
-				D815EB941FC719BF004717E5 /* Main.storyboard in Resources */,
+				D8B07F592022C35D00084234 /* LaunchScreen.storyboard in Resources */,
+				D8B07F562022C35D00084234 /* Assets.xcassets in Resources */,
+				D8B07F542022C35D00084234 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D815EB871FC719BF004717E5 /* Sources */ = {
+		D8B07F472022C35D00084234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D815EB911FC719BF004717E5 /* ViewController.swift in Sources */,
-				D815EB8F1FC719BF004717E5 /* AppDelegate.swift in Sources */,
+				D8B07F512022C35D00084234 /* ViewController.swift in Sources */,
+				D8B07F4F2022C35D00084234 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D815EB921FC719BF004717E5 /* Main.storyboard */ = {
+		D8B07F522022C35D00084234 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D815EB931FC719BF004717E5 /* Base */,
+				D8B07F532022C35D00084234 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D815EB971FC719BF004717E5 /* LaunchScreen.storyboard */ = {
+		D8B07F572022C35D00084234 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D815EB981FC719BF004717E5 /* Base */,
+				D8B07F582022C35D00084234 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D815EB9B1FC719BF004717E5 /* Debug */ = {
+		D8B07F5B2022C35D00084234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		D815EB9C1FC719BF004717E5 /* Release */ = {
+		D8B07F5C2022C35D00084234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -270,30 +270,30 @@
 			};
 			name = Release;
 		};
-		D815EB9E1FC719BF004717E5 /* Debug */ = {
+		D8B07F5E2022C35D00084234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bingo Viewing App/Info.plist";
+				DEVELOPMENT_TEAM = L5DC2RC8B4;
+				INFOPLIST_FILE = "Bingo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.fl17.Bingo-Viewing-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.mwoodruff1.Bingo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		D815EB9F1FC719BF004717E5 /* Release */ = {
+		D8B07F5F2022C35D00084234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bingo Viewing App/Info.plist";
+				DEVELOPMENT_TEAM = L5DC2RC8B4;
+				INFOPLIST_FILE = "Bingo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.fl17.Bingo-Viewing-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.mwoodruff1.Bingo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -303,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D815EB861FC719BF004717E5 /* Build configuration list for PBXProject "Bingo Viewing App" */ = {
+		D8B07F462022C35D00084234 /* Build configuration list for PBXProject "Bingo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D815EB9B1FC719BF004717E5 /* Debug */,
-				D815EB9C1FC719BF004717E5 /* Release */,
+				D8B07F5B2022C35D00084234 /* Debug */,
+				D8B07F5C2022C35D00084234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D815EB9D1FC719BF004717E5 /* Build configuration list for PBXNativeTarget "Bingo Viewing App" */ = {
+		D8B07F5D2022C35D00084234 /* Build configuration list for PBXNativeTarget "Bingo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D815EB9E1FC719BF004717E5 /* Debug */,
-				D815EB9F1FC719BF004717E5 /* Release */,
+				D8B07F5E2022C35D00084234 /* Debug */,
+				D8B07F5F2022C35D00084234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D815EB831FC719BF004717E5 /* Project object */;
+	rootObject = D8B07F432022C35D00084234 /* Project object */;
 }

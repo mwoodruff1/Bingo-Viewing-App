@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Bitmap.png",
+      "filename" : "Maryville dog.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "logo.png",
       "scale" : "2x"
     },
     {

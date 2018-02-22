@@ -120,6 +120,13 @@ class ViewController: UIViewController {
         
         var randomNumber:Int = Int(randomNumber32); //Switches from UInt32 to a standard Integer
         numberStorageArray.append(randomNumber)
+        if numberStorageArray.contains(randomNumber){
+            randomNumber32 = arc4random_uniform(76);
+            
+            if randomNumber32 == 0{
+                randomNumber32 = arc4random_uniform(76)
+            }
+        }
         switch randomNumber {
         case 1:
             View_1.backgroundColor = UIColor.yellow
@@ -270,37 +277,37 @@ class ViewController: UIViewController {
             displayLabel.text = "G49"
         case 50:
             View_50.backgroundColor = UIColor.yellow
-            displayLabel.text = "N50"
+            displayLabel.text = "G50"
         case 51:
             View_51.backgroundColor = UIColor.yellow
-            displayLabel.text = "N51"
+            displayLabel.text = "G51"
         case 52:
             View_52.backgroundColor = UIColor.yellow
-            displayLabel.text = "N52"
+            displayLabel.text = "G52"
         case 53:
             View_53.backgroundColor = UIColor.yellow
-            displayLabel.text = "N53"
+            displayLabel.text = "G53"
         case 54:
             View_54.backgroundColor = UIColor.yellow
-            displayLabel.text = "N54"
+            displayLabel.text = "G54"
         case 55:
             View_55.backgroundColor = UIColor.yellow
-            displayLabel.text = "N55"
+            displayLabel.text = "G55"
         case 56:
             View_56.backgroundColor = UIColor.yellow
-            displayLabel.text = "N56"
+            displayLabel.text = "G56"
         case 57:
             View_57.backgroundColor = UIColor.yellow
-            displayLabel.text = "N57"
+            displayLabel.text = "G57"
         case 58:
             View_58.backgroundColor = UIColor.yellow
-            displayLabel.text = "N58"
+            displayLabel.text = "G58"
         case 59:
             View_59.backgroundColor = UIColor.yellow
-            displayLabel.text = "N59"
+            displayLabel.text = "G59"
         case 60:
             View_60.backgroundColor = UIColor.yellow
-            displayLabel.text = "N60"
+            displayLabel.text = "G60"
         case 61:
             View_61.backgroundColor = UIColor.yellow
             displayLabel.text = "O61"
@@ -355,7 +362,89 @@ class ViewController: UIViewController {
         
         
     }
-
+    @IBOutlet weak var resetBoard: UIButton!
+    @IBAction func ResetBoard(_ sender: UIButton) {
+        View_1.backgroundColor = UIColor.white
+        View_2.backgroundColor = UIColor.white
+        View_3.backgroundColor = UIColor.white
+        View_4.backgroundColor = UIColor.white
+        View_5.backgroundColor = UIColor.white
+        View_6.backgroundColor = UIColor.white
+        View_7.backgroundColor = UIColor.white
+        View_8.backgroundColor = UIColor.white
+        View_9.backgroundColor = UIColor.white
+        View_10.backgroundColor = UIColor.white
+        View_11.backgroundColor = UIColor.white
+        View_12.backgroundColor = UIColor.white
+        View_13.backgroundColor = UIColor.white
+        View_14.backgroundColor = UIColor.white
+        View_15.backgroundColor = UIColor.white
+        View_16.backgroundColor = UIColor.white
+        View_17.backgroundColor = UIColor.white
+        View_18.backgroundColor = UIColor.white
+        View_19.backgroundColor = UIColor.white
+        View_20.backgroundColor = UIColor.white
+        View_21.backgroundColor = UIColor.white
+        View_22.backgroundColor = UIColor.white
+        View_23.backgroundColor = UIColor.white
+        View_24.backgroundColor = UIColor.white
+        View_25.backgroundColor = UIColor.white
+        View_26.backgroundColor = UIColor.white
+        View_27.backgroundColor = UIColor.white
+        View_28.backgroundColor = UIColor.white
+        View_29.backgroundColor = UIColor.white
+        View_30.backgroundColor = UIColor.white
+        View_31.backgroundColor = UIColor.white
+        View_32.backgroundColor = UIColor.white
+        View_33.backgroundColor = UIColor.white
+        View_34.backgroundColor = UIColor.white
+        View_35.backgroundColor = UIColor.white
+        View_36.backgroundColor = UIColor.white
+        View_37.backgroundColor = UIColor.white
+        View_38.backgroundColor = UIColor.white
+        View_39.backgroundColor = UIColor.white
+        View_40.backgroundColor = UIColor.white
+        View_41.backgroundColor = UIColor.white
+        View_42.backgroundColor = UIColor.white
+        View_43.backgroundColor = UIColor.white
+        View_44.backgroundColor = UIColor.white
+        View_45.backgroundColor = UIColor.white
+        View_46.backgroundColor = UIColor.white
+        View_47.backgroundColor = UIColor.white
+        View_48.backgroundColor = UIColor.white
+        View_49.backgroundColor = UIColor.white
+        View_50.backgroundColor = UIColor.white
+        View_51.backgroundColor = UIColor.white
+        View_52.backgroundColor = UIColor.white
+        View_53.backgroundColor = UIColor.white
+        View_54.backgroundColor = UIColor.white
+        View_55.backgroundColor = UIColor.white
+        View_56.backgroundColor = UIColor.white
+        View_57.backgroundColor = UIColor.white
+        View_58.backgroundColor = UIColor.white
+        View_59.backgroundColor = UIColor.white
+        View_60.backgroundColor = UIColor.white
+        View_61.backgroundColor = UIColor.white
+        View_62.backgroundColor = UIColor.white
+        View_63.backgroundColor = UIColor.white
+        View_64.backgroundColor = UIColor.white
+        View_65.backgroundColor = UIColor.white
+        View_66.backgroundColor = UIColor.white
+        View_67.backgroundColor = UIColor.white
+        View_68.backgroundColor = UIColor.white
+        View_69.backgroundColor = UIColor.white
+        View_70.backgroundColor = UIColor.white
+        View_71.backgroundColor = UIColor.white
+        View_72.backgroundColor = UIColor.white
+        View_73.backgroundColor = UIColor.white
+        View_74.backgroundColor = UIColor.white
+        View_75.backgroundColor = UIColor.white
+        displayLabel.text = ""
+    }
+    @IBAction func ExitApp(_ sender: UIButton) {
+        exit(0)
+    }
+    
 
 }
 
